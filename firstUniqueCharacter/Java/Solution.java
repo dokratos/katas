@@ -8,7 +8,7 @@ class Solution {
          new Solution().firstUniqChar("leetcode");
      }
 
-
+// passing test but poor runtime. Should I study more?!
     public int firstUniqChar(String s) {
         int index = -1;
         Map<String, Integer> counting = Stream.of(s.split(""))
