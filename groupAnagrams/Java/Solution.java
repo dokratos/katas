@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -13,7 +14,7 @@ class Solution {
             return result;
         }
 
-        List<Map<String, Integer>> hashKeys = new ArrayList<>();
+        Map<Map<String, Integer>, List<String>> hashKeys = new HashMap<>();
 
         for (String str : strs) {
             Map<String, Integer> sub = Stream.of(str.split(""))
@@ -21,27 +22,33 @@ class Solution {
                             x -> x,
                             String::length,
                             Integer::sum));
-            hashKeys.add(sub);
+            hashKeys.computeIfAbsent(sub, k -> new ArrayList<>()).add(str);
         }
 
-        hashKeys = hashKeys.stream()
-                .distinct()
-                .collect(Collectors.toList());
-
-        for (Map<String, Integer> hashkey: hashKeys) {
-            List<String> group = new ArrayList<>();
-            for (String str : strs) {
-                Map<String, Integer> sub = Stream.of(str.split(""))
-                        .collect(Collectors.toMap(
-                                x -> x,
-                                String::length,
-                                Integer::sum));
-                if (hashkey.equals(sub)) {
-                    group.add(str);
-                }
-            }
-            result.add(group);
+        for (Map.Entry<Map<String, Integer>, List<String>> hashKey : hashKeys.entrySet()) {
+            result.add(hashKey.getValue());
         }
+//            hashKeys.add(sub);
+//        }
+//
+//        hashKeys = hashKeys.stream()
+//                .distinct()
+//                .collect(Collectors.toList());
+//
+//        for (Map<String, Integer> hashkey: hashKeys) {
+//            List<String> group = new ArrayList<>();
+//            for (String str : strs) {
+//                Map<String, Integer> sub = Stream.of(str.split(""))
+//                        .collect(Collectors.toMap(
+//                                x -> x,
+//                                String::length,
+//                                Integer::sum));
+//                if (hashkey.equals(sub)) {
+//                    group.add(str);
+//                }
+//            }
+//            result.add(group);
+//        }
 
         return result;
     }
