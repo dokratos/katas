@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BreakingTheRecords/BreakingTheRecords.iml" filepath="$PROJECT_DIR$/BreakingTheRecords/BreakingTheRecords.iml" />
+      <module fileurl="file://$PROJECT_DIR$/caesarCipher/caesarCipher.iml" filepath="$PROJECT_DIR$/caesarCipher/caesarCipher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/camelCase4/camelCase4.iml" filepath="$PROJECT_DIR$/camelCase4/camelCase4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/counterGame/counterGame.iml" filepath="$PROJECT_DIR$/counterGame/counterGame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/divisibleSumPairs/divisibleSumPairs.iml" filepath="$PROJECT_DIR$/divisibleSumPairs/divisibleSumPairs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gridChallenge/gridChallenge.iml" filepath="$PROJECT_DIR$/gridChallenge/gridChallenge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/katas.iml" filepath="$PROJECT_DIR$/katas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lonelyInteger/lonelyInteger.iml" filepath="$PROJECT_DIR$/lonelyInteger/lonelyInteger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maxPerimeterTriangle/maxPerimeterTriangle.iml" filepath="$PROJECT_DIR$/maxPerimeterTriangle/maxPerimeterTriangle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/migratoryBirds/migratoryBirds.iml" filepath="$PROJECT_DIR$/migratoryBirds/migratoryBirds.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minimumSum/minimumSum.iml" filepath="$PROJECT_DIR$/minimumSum/minimumSum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/missingNUmbers/missingNUmbers.iml" filepath="$PROJECT_DIR$/missingNUmbers/missingNUmbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pangram/pangram.iml" filepath="$PROJECT_DIR$/pangram/pangram.iml" />
+      <module fileurl="file://$PROJECT_DIR$/permutingArrays/permutingArrays.iml" filepath="$PROJECT_DIR$/permutingArrays/permutingArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pickingNumbers/pickingNumbers.iml" filepath="$PROJECT_DIR$/pickingNumbers/pickingNumbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plusMinus/plusMinus.iml" filepath="$PROJECT_DIR$/plusMinus/plusMinus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reverseMatrix/reverseMatrix.iml" filepath="$PROJECT_DIR$/reverseMatrix/reverseMatrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/separateTheNumbers/separateTheNumbers.iml" filepath="$PROJECT_DIR$/separateTheNumbers/separateTheNumbers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sherlockArrays/sherlockArrays.iml" filepath="$PROJECT_DIR$/sherlockArrays/sherlockArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sparseArray/sparseArray.iml" filepath="$PROJECT_DIR$/sparseArray/sparseArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/strongPassword/strongPassword.iml" filepath="$PROJECT_DIR$/strongPassword/strongPassword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/subArrayDiv/subArrayDiv.iml" filepath="$PROJECT_DIR$/subArrayDiv/subArrayDiv.iml" />
+    </modules>
+  </component>
+</project>
