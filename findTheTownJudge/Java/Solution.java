@@ -1,5 +1,7 @@
 import java.util.*;
 
+
+// Solution beats 5% of users, shall I improve it?...
 class Solution {
     public int findJudge(int n, int[][] trust) {
         if (n == 1) return 1;
@@ -9,6 +11,8 @@ class Solution {
         for (int[] citizen : trust) {
             map.computeIfAbsent(citizen[0], ArrayList::new).add(citizen[1]);
         }
+
+        if (n - map.size() > 1) return -1;
         System.out.println(map.toString());
         Set<Integer> notJudge = map.keySet();
         List<List<Integer>> trusted = new ArrayList<>(map.values());
