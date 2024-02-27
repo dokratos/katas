@@ -24,9 +24,23 @@ class Solution {
             return 0;
         }
 
-        count++;
+        int leftCount = Math.max(0, incrementCount(node.left));
+        int rightCount = Math.max(0, incrementCount(node.right));
 
-        return Math.max(incrementCount(node.right), incrementCount(node.left));
+        count = Math.max((leftCount + rightCount), count);
+
+        return Math.max(leftCount+1, rightCount+1);
     }
+
+// this code counts all nodes!
+//    int incrementCount(TreeNode node) {
+//        if (node == null) {
+//            return 0;
+//        }
+//
+//        count++;
+//
+//        return Math.max(incrementCount(node.right), incrementCount(node.left));
+//    }
 }
 
